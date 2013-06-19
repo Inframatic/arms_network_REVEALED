@@ -1,0 +1,24 @@
+The program calls upon the function "Game" which generates an array of cities and places the user in one, creates a new Agent, which has a codename and real name, and an empty array of badThings. It creates a function refreshViews using Prototype. This function prints all of the current stats: items, inventory, money.
+
+Uses Prototype to make a function changeCity which takes one argument. It displays text and the new city. Then calls refreshViews, which may incur a bad thing. badThing picks a random number between 1 and 10 and says "rolled #.  If it equals 1, a bad thing happens. Rolls a die in rollDieforBadThing. badThings is true, it calls upon it calls a bad event by index from an array prints text..
+
+Creates fund buyItems that activates while a var Invalid is true. When prompfornumber activates, it asks for an int that equals the amount you want to buy. If number is less than 0 or anything else you get an error of sorts and the fund reloops.   
+
+a variable item is created and it equals to the current price of the item multiplied to the int the user entered for amt. If users money total is less than the var amount, user will be prompted with a text saying he can't afford it.
+
+var "yes" is created which is a prompt that confirms what the player wants. spendMoney function is called if yes is true which subtracts the amount bought with players total money. refreshViews is called again with new data.
+
+a function called sellItem with one argument (inventoryItem) is created which creates a var called value which is the inventory items current price multiplied by the amount that is wanted to be purchased. var invalid becomes true and a string is printed about the current action. 
+
+When invalid is true it triggers an alert that asks how much of the item the user wants to sell. If the qty is less than one or not an int an error occurs. If the qty is higher than the amount in the inventory, an alert is also posted. after this invalid becomes false ending the loop.
+
+a function called initBadThings is created which pulls an event from 4 bad things. A text alert is called and the users money is multiplied by 95%, 2 badThings subtract 100 dollars and one subtracts 50 dollars
+
+a function Agentitem is made which displays the amount of which items the player has.
+fund agent gives the player 1000 default dollars.
+
+fund init is called which is part of Agent. it prompts for the agents name and codename.
+buyItem fund takes the item bought and pushes into an array that represents the agents inventory..
+sellItem pops out the item and subtracts the amount bought from the var quantity
+
+a getRank fund is created which gives the agents a string status based on the amount of money the agent 
